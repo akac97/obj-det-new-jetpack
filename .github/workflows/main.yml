@@ -29,3 +29,4 @@ jobs:
         name: app-debug.apk
         path: app/build/outputs/apk/debug/*.apk
         retention-days: 90
+        compression-level: 9
