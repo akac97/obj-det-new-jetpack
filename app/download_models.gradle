@@ -15,7 +15,7 @@
  */
 
 task downloadModelFile0(type: Download) {
-    src 'https://storage.googleapis.com/mediapipe-models/object_detector/efficientdet_lite0/float32/1/efficientdet_lite0.tflite'
+    src 'https://storage.googleapis.com/mediapipe-models/object_detector/ssd_mobilenet_v2/float16/latest/ssd_mobilenet_v2.tflite'
     dest project.ext.ASSET_DIR + '/efficientdet-lite0.tflite'
     overwrite false
 }
